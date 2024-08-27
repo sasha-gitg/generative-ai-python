@@ -57,6 +57,7 @@ from google.generativeai.files import list_files
 from google.generativeai.files import delete_file
 
 from google.generativeai.generative_models import GenerativeModel
+from vertexai.generative_models import GenerativeModel as VertexGenerativeModel
 from google.generativeai.generative_models import ChatSession
 
 from google.generativeai.models import list_models

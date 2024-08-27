@@ -50,6 +50,7 @@ dependencies = [
     "pydantic",
     "tqdm",
     "typing-extensions",
+    'google-cloud-aiplatform @ git+https://github.com/sasha-gitg/python-aiplatform.git@google_ai_alias_demo#egg=google-cloud-aiplatform'
 ]
 
 extras_require = {
